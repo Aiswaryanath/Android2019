@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">mzcapp</string>
+    <string-array name="degreelist">
+        <item>Bsc computer Science</item>
+        <item>BCA computer Science</item>
+        <item>Msc computer Science</item>
+        <item>MCA computer Science</item>
+
+    </string-array>
+</resources>

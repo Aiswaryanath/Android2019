@@ -10,7 +10,7 @@ public class CalculatorActivity extends AppCompatActivity {
     String s1, s2, s3;
     EditText ed1, ed2,ed3;
     int a1, a2, a3;
-    Button b;
+    Button b,b1;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

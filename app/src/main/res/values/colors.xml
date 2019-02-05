@@ -3,5 +3,14 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
-
+<color name="startcolor">#FFE000</color>
+    <color name="endcolor">#799F0C</color>
+    <color name="backgroundstartcolor">#00416A</color>
+    <color name="backgroundendcolor">#E4E5E6</color>
+    <color name="registerstartcolor">#FBD786</color>
+   <color name="roundcolor">#00416A</color>
+    <color name="roundcolor1">#FBD786</color>
+    <color name="roundcolor2">#799F0C</color>
+    <color name="roundcolor3">#3F51B5</color>
 </resources>
+

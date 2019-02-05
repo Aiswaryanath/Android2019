@@ -1,54 +1,80 @@
-<LinearLayout android:layout_height="match_parent"
-    android:background="@color/colorAccent"
-    android:orientation="vertical"
-
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent">
-<TextView
+<ScrollView android:layout_height="match_parent"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:text="username"/>
-    <EditText
-        android:id="@+id/username"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_height="match_parent"
+        android:background="@drawable/backgroundstyles"
+        android:orientation="vertical"
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="password"/>
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent">
+        <ImageView
+        android:src="@drawable/oyo"
+            android:layout_gravity="center"
+            android:background="@drawable/circlestyle"
+            android:layout_margin="15dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+        <TextView
+            android:layout_margin="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="username"/>
+        <EditText
+            android:layout_margin="15dp"
+            android:id="@+id/username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
 
-    <EditText
-        android:inputType="textPassword"
-        android:id="@+id/password"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        <TextView
+            android:layout_margin="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="password"/>
 
-    <Button
-        android:id="@+id/login"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="LOGIN"/>
+        <EditText
+            android:layout_margin="15dp"
+            android:inputType="textPassword"
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
 
-    <Button
-        android:background="@color/colorPrimary"
-        android:id="@+id/register"
-        android:text="REGISTER"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        <Button
+            android:background="@drawable/buttonstyles"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:layout_margin="15dp"
+            android:id="@+id/login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LOGIN"/>
 
-    <Button
-        android:id="@+id/alreadyregister"
-        android:text="ALREADYREGISTERED"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-    <Button
-        android:id="@+id/calculator"
-        android:text="calculator"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        <Button
 
-</LinearLayout>
+            android:layout_margin="15dp"
+            android:background="@drawable/registerstyle"
+            android:textSize="20dp"
+            android:textColor="#FFFFFF"
+            android:id="@+id/register"
+            android:text="REGISTER"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:layout_margin="15dp"
+            android:id="@+id/alreadyregister"
+            android:text="ALREADYREGISTERED"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:layout_margin="15dp"
+            android:id="@+id/calculator"
+            android:text="calculator"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
 
 
 
+
+</ScrollView>
